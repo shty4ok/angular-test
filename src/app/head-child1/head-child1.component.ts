@@ -15,6 +15,6 @@ export class HeadChild1Component implements OnInit {
     this.sendAgeEmmint();
   }
   sendAgeEmmint() {
-    this.ageSend.emit();
+    this.ageSend.emit(this.age);
   }
 }

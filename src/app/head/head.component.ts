@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadComponent implements OnInit {
   public name = 1;
-  public coco;
+  public coco: number;
   constructor() { }
 
   ngOnInit() {
